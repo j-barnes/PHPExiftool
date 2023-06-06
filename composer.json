@@ -1,5 +1,5 @@
 {
-    "name": "alchemy/phpexiftool",
+    "name": "j-barnes/phpexiftool",
     "type": "library",
     "description": "Exiftool driver for PHP",
     "keywords": ["metadata","exiftool"],
@@ -36,8 +36,11 @@
         "doctrine/collections": "^1.0",
         "monolog/monolog": "^1.3|^2.0|^3.0",
         "phpexiftool/exiftool": "^10.10",
-        "symfony/console": "^2.1|^3.0|^4.2|^5.0|^6.0",
-        "symfony/process": "^2.1|^3.0|^4.2|^5.0|^6.0"
+        "symfony/console": "^5 || ^6.2",
+        "symfony/css-selector": "^5 || ^6.2",
+        "symfony/dom-crawler": "^5 || ^6.2",
+        "symfony/process": "^5 || ^6",
+        "symfony/monolog-bridge": "^5.4 || ^6.2"
     },
     "suggest": {
         "jms/serializer": "To serialize tags",
